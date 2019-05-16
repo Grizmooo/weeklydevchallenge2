@@ -8,16 +8,16 @@
 </head>
 <body>
 <div class="main">
-    <section class='home'>
+    <section class='home' id='homesection'>
         <header class="flex">
             <img class="img_logo" src='img/logo.png' alt="Cahee" >
             <nav class="flex navbox">
-                <div class="nav_item">HOME</div>
-                <div class="nav_item">ABOUT</div>
-                <div class="nav_item">SERVICES</div>
-                <div class="nav_item">GALLERY</div>
-                <div class="nav_item">BLOG</div>
-                <div class="nav_item">CONTACT</div>
+                <div class="nav_item"><a href="#homesection">HOME</a></div>
+                <div class="nav_item"><a href="#aboutussection">ABOUT</a></div>
+                <div class="nav_item"><a href="#servicessection">SERVICES</a></div>
+                <div class="nav_item"><a href="#gallerysection">GALLERY</a></div>
+                <div class="nav_item"><a href="#blogsection">BLOG</a></div>
+                <div class="nav_item"><a href="#contactsection">CONTACT</a></div>
             </nav>
         </header>
         <h2>Fresh life</h2>
@@ -25,7 +25,7 @@
         <button type="submit">GET FREE NOW</button>
     </section>
 
-    <section class="aboutus">
+    <section class="aboutus" id='aboutussection'>
         <img src="img/img2.png" alt="Cahee">
         <div class="section_item">
             <h1>About Us</h1>
@@ -34,31 +34,64 @@
         </div>
     </section>
 
-    <section>
+    <section class='services' id='servicessection'>
         <div class="buttonsbox">
-            <button class="btn2">
-            Online Shopping
-            </button>
-            <button class="btn2">
-            Quality Product
-            </button>
-            <button class="btn2">
-            Domestic & International Delivery
-            </button>
-            <button class="btn2">
-            Well Organized
-            </button>
+            <a href="#">
+                <div>
+                    Online Shopping
+                </div>
+                <img src="img/icon1.png">
+            </a>
+            <a href="#">
+                <div>
+                    Quality Product
+                </div>
+                <img src="img/icon2.png">
+            </a>
+            <a href="#">
+                <div>
+                    Domestic & International Delivery
+                </div>
+                <img src="img/icon3.png">
+            </a>
+            <a href="#">
+                <div>
+                    Well organised
+                </div>
+                <img src="img/icon4.png">
+            </a>
         </div>
-        <img src="img/img3.png" alt="Cahee">
         <h1>Our Services</h1>
     </section>
 
-    <section>
-
+    <section class='gallery' id='gallerysection'>
+        <h1>Gallery</h1>
+        <p>
+            Consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <div class="gallerybox">
+            <img src="img/img4.png">
+            <img src="img/img5.png">
+            <img src="img/img6.png">
+            <img src="img/img7.png">
+            <img src="img/img8.png">
+        </div>
+        <button>VIEW MORE</button>
     </section>
 
-    <section>
-
+    <section class='subscribe'>
+        <h3>Subscribe To Us</h3>
+        <p>
+            Dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam
+        </p>
+        <label for="subscribe_email" hidden>Your email adress..</label>
+        <input type='email' placeholder="Your email adress.." id="subscribe_email">
+        <button type='submit'>SUBSCRIBE</button>
     </section>
 
     <section>
